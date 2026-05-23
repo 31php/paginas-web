@@ -14,12 +14,22 @@
     margin: 0px;
     padding: 0px;
 }
+body{    
+     background-image: url('../imagens/images\ \(1\).jpeg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-color: rgba(210, 248, 210, 0.548);    
+}
 
 header{
-    padding: 40px;
+  
+    padding: 30px;
     background-color: green;
     color: white;
     text-align: center;    
+
+    
 }
 header h1{
     font: italic bold 2em fonteTitulo;
@@ -31,7 +41,7 @@ header p{
 
 nav{
     background-color: green;
-    padding: 10px;   
+    padding: 6px;   
 }
 nav > a{
     color: white;
@@ -44,3 +54,39 @@ nav > a:hover{
     background-image: linear-gradient(to right, transparent, rgba(144, 238, 144, 0.884));
     border-radius: 5px;
 }
+
+main{
+    width: 400px;
+    height: auto;    
+    padding: 10px;
+    margin: auto;
+}
+section p{
+    font: italic normal 18px var(--fontconteudo);
+    text-align: justify;
+    padding: 10px;
+}
+footer{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding: 10px;
+    font: italic normal 18px var(--fontconteudo);
+}
+footer a{
+    color: white;
+    padding-right: 6px;
+    text-decoration: none;
+    font: italic bold 18px var(--fontconteudo);
+}
+footer > p > a:hover{
+    color: white;
+    background-image: linear-gradient(to right, transparent, rgba(144, 238, 144, 0.884));
+    border-radius: 5px;
+}
+   
+
+    

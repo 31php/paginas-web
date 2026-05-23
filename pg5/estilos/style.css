@@ -1,0 +1,6 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'fonteTitulo';
+    src: url(../fontes/Ed\ Wood\ Movies.ttf) format(truetype);
+}

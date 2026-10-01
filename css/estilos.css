@@ -1,14 +1,39 @@
 @charset "utf-8";
 
 :root{
-    --cor1: #63783d;
+    --corTitulo: #63783d;
     --cor2: #7fa653;
     --cor3: #99CD85;
-    --cor4: #99cd85;
+    --corFundo: #99cd85;
     --cor5: #cfe0bc;
 }
 *{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+html, body{
+    width: 100vw;
+    height: 100vw;
+    background-color: var(--corFundo);
+}
+header{
+    background-color: var(--corTitulo);
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    text-decoration: underline;
+    color: var(--cor5);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+
